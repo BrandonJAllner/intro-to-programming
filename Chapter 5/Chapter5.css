@@ -1,0 +1,28 @@
+body {
+    background-image: url("asus\ rog.jpg");
+    background-repeat: repeat-x;
+    color: white;
+    }
+
+p {
+    font-family:'Times New Roman', Times, serif
+}
+h1 {
+    color:red;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px green;
+}
+
+h2 {
+    color:red;
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px pink;
+}
+
+ul.a {
+    list-style-type: lower-alpha;
+}

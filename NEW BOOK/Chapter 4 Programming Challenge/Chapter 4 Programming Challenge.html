@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chapter 4 Programming Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body>
+        <script>
+            
+        var Scores = {
+            Henry: 0 ,
+            Kim: 2 ,
+            Michael: 3,
+            Megan: 0
+        }
+        
+        document.write("OLD SCORES: " + "<br><br>");
+        //OLD SCORES
+        document.write(" Henry: " + Scores.Henry + "<br>");
+        document.write(" Kim: " + Scores.Kim + "<br>");
+        document.write(" Michael: " + Scores.Michael + "<br>");
+        document.write(" Megan: " + Scores.Megan + "<br><br>");
+
+        document.write("NEW SCORES: " + "<br><br>");
+        //NEW SCORES
+        Scores.Henry += 3;
+        Scores.Kim += 5;
+        Scores.Michael += 2;
+        Scores.Megan += 5;
+        
+        document.write(" Henry: " + Scores.Henry + "<br>");
+        document.write(" Kim: " + Scores.Kim + "<br>");
+        document.write(" Michael: " + Scores.Michael + "<br>");
+        document.write(" Megan: " + Scores.Megan + "<br>");
+        
+     var myCrazyObject = {
+        "name": "A ridiculous object",
+        "some array": [7, 9, { purpose: "confusion", number: 123 }, 3.3],
+        "random animal": "Banana Shark"
+    };
+
+    document.write(myCrazyObject("some array")[2].number);
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chapter 3 Programming Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Chapter 3 Programming Challenge.css">
+    
+</head>
+<body>
+    <script>
+        var randomBodyParts = ["Face", "Nose", "Hair"];
+        var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+        var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
+        var animalBodyParts = ["Legs", "Nose", "Tail", "Body" , "Ear" , "Eyes"];
+        var numbers = [3, 2, 1];
+
+        // Pick a random body part from the randomBodyParts array:
+        var randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
+        // Pick a random adjective from the randomAdjectives array:
+        var randomAdjective = randomAdjectives[Math.floor(Math.random() * randomAdjectives.length)];
+        // Pick a random word from the randomWords array:
+        var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
+        // Join all the random strings into a sentence:
+        var animalBodyPart = animalBodyParts[Math.floor(Math.random() * animalBodyParts.length)];
+        //
+        var randomInsult = "Your " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord + " " + animalBodyPart + "!!!";
+        
+        document.write(randomBodyPart + "<br>");
+        document.write(randomAdjective + "<br>");
+        document.write(randomWord + "<br>");
+        document.write(randomInsult + "<br>");
+
+        document.write(randomWords.join(" ") + "<br>");
+
+        document.write(numbers.join(" is bigger than "));
+    </script>
+</body>
+</html>
